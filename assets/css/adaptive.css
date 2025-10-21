@@ -102,7 +102,7 @@
   }
   header img {
     height: 50%;
-    margin-right: ;
+    margin-right: 0;
   }
 
   main h1 {
@@ -140,5 +140,228 @@
   #pt2 {
     width: 48%;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+
+  .titolo {
+    position: relative;
+  }
+  .baffo {
+    position: absolute;
+    bottom: 1px;
+    z-index: 1;
+    width: 100%;
+    color: blueviolet;
+  }
+  .titolo h1 {
+    z-index: 2;
+  }
+
+  header li {
+    display: inline-block;
+  }
+
+  #insert {
+    position: relative;
+    display: inline-block;
+  }
+
+  .imgLeft {
+    float: left;
+    top: 0;
+    left: 0;
+  }
+  section {
+    position: relative;
+    padding-bottom: 6vw;
+  }
+  section h2 {
+    background-color: rgb(149, 148, 148);
+    display: inline-block;
+    position: absolute;
+    top: -4vw;
+    font-size: 7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  section p {
+    margin-top: 5vw;
+  }
+  #iconeLato {
+    position: absolute;
+    right: -5vw;
+    top: -5vw;
+
+    font-size: 10vw;
+  }
+  .fa-plus-square {
+    color: rgba(25, 84, 179, 0.786);
+    background-color: rgba(255, 255, 255, 0.498);
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
+  }
+  .fa-calendar-alt {
+    color: rgba(25, 84, 179, 0.786);
+    background-color: rgba(255, 255, 255, 0.498);
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
+  }
+  .fa-caret-square-up {
+    color: rgb(187, 40, 40);
+    background-color: rgba(255, 255, 255, 0.498);
+
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
+  }
+  footer {
+    position: relative;
+  }
+
+  .iconaA,
+  .iconaB,
+  .iconaC {
+  }
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    font-size: 2vw;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+
+  .titolo {
+    position: relative;
+  }
+  .titolo h1 {
+    position: relative;
+  }
+  .baffo {
+    position: relative;
+    bottom: 13px;
+    z-index: 1;
+    width: 100%;
+    color: blueviolet;
+  }
+  .titolo h1 {
+    z-index: 2;
+  }
+
+  header li {
+    display: inline-block;
+  }
+
+  #insert {
+    position: relative;
+    display: inline-block;
+  }
+
+  .imgLeft {
+    float: left;
+    top: 0;
+    left: 0;
+  }
+  section {
+    position: relative;
+    padding-bottom: 6vw;
+  }
+  section h2 {
+    background-color: rgb(149, 148, 148);
+    display: inline-block;
+    position: absolute;
+    top: -4vw;
+    font-size: 6vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  section p {
+    margin-top: 5vw;
+  }
+  #iconeLato {
+    right: -5vw;
+    top: -5vw;
+
+    font-size: 8vw;
+  }
+  .fa-plus-square {
+    color: rgba(25, 84, 179, 0.786);
+    background-color: rgba(255, 255, 255, 0.498);
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
+    position: fixed;
+    top: 1vw;
+    right: 2vw;
+    z-index: 6;
+  }
+  .fa-calendar-alt {
+    color: rgba(25, 84, 179, 0.786);
+    background-color: rgba(255, 255, 255, 0.498);
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
+    position: fixed;
+    top: 14vw;
+    right: 2vw;
+    z-index: 6;
+  }
+  .fa-caret-square-up {
+    color: rgb(187, 40, 40);
+    background-color: rgba(255, 255, 255, 0.498);
+
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
+    position: fixed;
+    bottom: 5vw;
+    right: 2vw;
+  }
+  footer {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #iconeLato {
+    position: absolute;
+    right: -5vw;
+    top: -5vw;
+
+    font-size: 2vw;
+  }
+  .fa-plus-square {
+    color: rgba(25, 84, 179, 0.786);
+    background-color: rgba(255, 255, 255, 0.498);
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
+  }
+  .fa-calendar-alt {
+    color: rgba(25, 84, 179, 0.786);
+    background-color: rgba(255, 255, 255, 0.498);
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
+  }
+  .fa-caret-square-up {
+    color: rgb(187, 40, 40);
+    background-color: rgba(255, 255, 255, 0.498);
+
+    padding: 1.2vw;
+    border: 3px solid white;
+    border-radius: 8%;
   }
 }
