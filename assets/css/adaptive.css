@@ -95,13 +95,14 @@
     padding-left: auto;
   }
   nav {
-    padding-left: 30vw;
+    padding-left: 40vw;
     padding-right: 0;
     display: flex;
     align-items: right;
   }
   header img {
     height: 50%;
+    margin-right: ;
   }
 
   main h1 {
